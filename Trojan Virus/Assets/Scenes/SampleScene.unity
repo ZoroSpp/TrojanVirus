@@ -330,7 +330,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.27970806, g: 0.6375891, b: 0.9150943, a: 0}
+  m_BackGroundColor: {r: 0.3437665, g: 0.2784314, b: 0.9137255, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -371,7 +371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.5, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -760,11 +760,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.34
+      value: -4.86
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.68
+      value: -5.31
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -901,7 +901,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -930,8 +930,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.3202095
-        value: 1
+        time: 0
+        value: 0.5133343
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -944,9 +944,9 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.09411765, g: 0.9529412, b: 0.88500607, a: 1}
-      key1: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
-      key2: {r: 1, g: 0.9144961, b: 0.032075405, a: 0.44705883}
-      key3: {r: 0, g: 0, b: 0, a: 0}
+      key1: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 0.61960787}
+      key2: {r: 1, g: 0.9144961, b: 0.032075405, a: 0.61960787}
+      key3: {r: 0, g: 0, b: 0, a: 0.30980393}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
@@ -960,16 +960,16 @@ TrailRenderer:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 33539
-      atime2: 65535
-      atime3: 0
+      atime1: 32382
+      atime2: 33539
+      atime3: 65535
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
       m_NumColorKeys: 2
-      m_NumAlphaKeys: 3
+      m_NumAlphaKeys: 4
     numCornerVertices: 1
     numCapVertices: 1
     alignment: 0
