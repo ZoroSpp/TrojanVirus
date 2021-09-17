@@ -329,8 +329,8 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.27970806, g: 0.6375891, b: 0.9150943, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -341,13 +341,13 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.5
-    height: 2
+    width: 0.35
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.406195
+  orthographic size: 11.208935
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -371,7 +371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -1.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -760,11 +760,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.27
+      value: 3.34
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.21
+      value: -1.68
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -901,7 +901,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -930,7 +930,7 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.04112625
+        time: 0.3202095
         value: 1
         inSlope: 0
         outSlope: 0
@@ -944,8 +944,8 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.09411765, g: 0.9529412, b: 0.88500607, a: 1}
-      key1: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 0.62352943}
-      key2: {r: 1, g: 0.9144961, b: 0.032075405, a: 0.015686275}
+      key1: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
+      key2: {r: 1, g: 0.9144961, b: 0.032075405, a: 0.44705883}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
