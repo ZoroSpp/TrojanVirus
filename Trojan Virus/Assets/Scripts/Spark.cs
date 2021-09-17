@@ -30,8 +30,8 @@ public class Spark : MonoBehaviour
     }
     private void TargetPos()
     {
-        targetpos.x = Random.Range(-1,1)*5.2f;
-        targetpos.y = Random.Range(-1,1)*5.2f;
+        targetpos.x = (Random.Range(0,3)-1)*5.2f;
+        targetpos.y = (Random.Range(0,3)-1)*5.2f;
         targetpos.z = 0.0f;
         Debug.Log(targetpos);
     }
