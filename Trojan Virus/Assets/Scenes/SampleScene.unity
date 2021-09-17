@@ -752,19 +752,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2500001
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.61
+      value: -5.27
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.98
+      value: -5.21
       objectReference: {fileID: 0}
     - target: {fileID: 5402090035354048467, guid: 84184c6f71958004b9246e3e6cff3ad9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -901,7 +901,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -930,8 +930,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.74666214
+        time: 0.04112625
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
