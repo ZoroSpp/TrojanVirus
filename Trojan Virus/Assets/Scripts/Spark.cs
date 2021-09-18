@@ -30,8 +30,7 @@ public class Spark : MonoBehaviour
         else
         {
             if (Time.time >= Sparktime + timelapse)
-            {
-                
+            {                
                 switch (checkSt)
                 {
                     case 0:

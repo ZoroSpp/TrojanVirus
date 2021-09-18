@@ -95,4 +95,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90886e602a67e6143b0a789c6ccb4004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pos: {fileID: 0}
+  pos: {fileID: 5402090035354048467}
+  speed: 50
+  freezeTime: 0.5
