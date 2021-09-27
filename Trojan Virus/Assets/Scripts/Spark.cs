@@ -11,7 +11,7 @@ public class Spark : MonoBehaviour
     [SerializeField] float freezeTime;
     float freezeStart;
     public static int checkSt = 0;                    //running status of spark
-    public static bool checkClick=false;
+    public static bool checkClick = false;
     public bool CheckClkna = checkClick;
     public int checkStna = checkSt;
     GameObject spark;
@@ -19,7 +19,7 @@ public class Spark : MonoBehaviour
     void Start()
     {
         Sparktime = Time.time;
-        timelapse = Random.Range(4, 10)*0.2f;
+        timelapse = Random.Range(4, 10) * 0.2f;
         TargetPos();
     }
 
@@ -30,7 +30,7 @@ public class Spark : MonoBehaviour
         CheckClkna = checkClick;
         if (pos.position != targetpos)
         {
-            pos.position=Vector3.MoveTowards(pos.position,targetpos,speed*Time.deltaTime);
+            pos.position = Vector3.MoveTowards(pos.position, targetpos, speed * Time.deltaTime);
         }
 
         else
@@ -45,7 +45,7 @@ public class Spark : MonoBehaviour
                         speed = 0;
                         break;
                     case 1:
-                        if (checkClick)
+                        if (Input.GetKeyDown(KeyCode.Mouse0))
                         {
                             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                             Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
@@ -56,19 +56,19 @@ public class Spark : MonoBehaviour
                                 GameObject.Find("GridManager").GetComponent<Score>().scoreVal += 30;
                             }
                             else
+                            {
                                 GameObject.Find("GridManager").GetComponent<Score>().scoreVal -= 20;
-                            
+                            }
                             speed = 40;
-                            checkClick = false;
                             GenerateSpark();
                         }
                         if (Time.time >= freezeStart + freezeTime)
                         {
-                           
+
                             Sparktime = Time.time;
                             timelapse = Random.Range(4, 10) * 0.2f;
                             speed = 40;
-                            checkSt= 0;
+                            checkSt = 0;
                             TargetPos();
                         }
                         break;
@@ -83,17 +83,17 @@ public class Spark : MonoBehaviour
     }
     private void TargetPos()
     {
-        targetpos.x = (Random.Range(0,3)-1)*5.2f;
-        targetpos.y = (Random.Range(0,3)-1)*5.2f;
+        targetpos.x = (Random.Range(0, 3) - 1) * 5.2f;
+        targetpos.y = (Random.Range(0, 3) - 1) * 5.2f;
         targetpos.z = 0.0f;
-        }
-    void OnMouseDown()
+    }
+    /*void OnMouseDown()
     {
         if (checkSt == 1)
         {
             checkClick = true;
         }
-            }
+            }*/
     void GenerateSpark()
     {
         int i = Random.Range(0, 3);
@@ -104,7 +104,7 @@ public class Spark : MonoBehaviour
         checkClick = false;
         checkSt = 0;
         Destroy(this.gameObject);
-        
+
     }
 
 }
