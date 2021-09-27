@@ -1,24 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GridManagerx : MonoBehaviour
 {
-    [SerializeField] LightSpark lsprefab;
-    [SerializeField] Spark sprefab;
-    //[SerializeField] GameObject ls;
-    
-    //[SerializeField] private bool mouseclick;
-    private bool check = true;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //GenerateSpark();
-    }
+    /* [SerializeField] GameObject spark;
+     [SerializeField] Spark SparkLife;
+
+     //[SerializeField] private bool mouseclick;
+     private bool check = true;
+     // Start is called before the first frame update
+     void Start()
+     {
+         //GenerateSpark();
+     }*/
 
     // Update is called once per frame
     void Update()
     {
+        /*bool x=GameObject.Find("Spark").GetComponent<Spark>().checkClick;
+        //if (x)
+        {
+            Debug.Log("Hello");
+            GenerateSpark();
+        }
         /*private bool checkmouseclick()
         {
             mouseclick = Input.GetButtonDown(KeyCode.Mouse(0))
@@ -28,21 +31,16 @@ public class GridManagerx : MonoBehaviour
             GenerateSpark();*/
     }
 
-    /* private void GenerateSpark()
+    private void GenerateSpark()
     {
-        int i = Random.Range(0,2);
-        float x = (i-1)*5.2f;
-        int j = Random.Range(0,2);
-        float y = (j - 1)* 5.2f;
-        var _lightspark = Instantiate(ls, new Vector2((float)x,(float)y), Quaternion.identity);
+        /*Debug.Log("Hell");
+        int i = Random.Range(0, 3);
+        float x = (i - 1) * 5.2f;
+        int j = Random.Range(0, 3);
+        float y = (j - 1) * 5.2f;
+        var _lightspark = Instantiate(spark, new Vector2((float)x, (float)y), Quaternion.identity);
         //_lightspark.Name = $"LightSpark {i} {j}";
-        check = false;
-
-        /*if(Input.GetMouseButtonDown(0))
-        {
-            
-        }
-        //Destroy(_lightspark, 2.0f);
-        //check = true;
-    }*/
+        //GameObject.Find("Spark").GetComponent<Spark>().checkClick = false;
+        }*/
+    }
 }
