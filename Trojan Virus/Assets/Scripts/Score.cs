@@ -3,6 +3,8 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
+    public float gameStart;
+    public float gameTime;
     [SerializeField] Text score;
     [SerializeField] Text Info;
     [SerializeField] GameObject spark;
@@ -27,6 +29,7 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if ((scoreVal >= 150) || (scoreVal <= -50))
         {
             switch (y)

@@ -1237,6 +1237,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f533a2241ce9814e9e67be591ec226a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStart: 0
+  gameTime: 0
   score: {fileID: 1415662119}
   Info: {fileID: 0}
   spark: {fileID: 7197775319178752178, guid: 2ee545d7681cfde448b5c9dd1883225e, type: 3}
@@ -1361,6 +1363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f533a2241ce9814e9e67be591ec226a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStart: 0
+  gameTime: 0
   score: {fileID: 1415662119}
   Info: {fileID: 2104700918}
   spark: {fileID: 7197775319178752178, guid: 2ee545d7681cfde448b5c9dd1883225e, type: 3}
@@ -1615,7 +1619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 120.09, y: 145.83}
+  m_AnchoredPosition: {x: 96.028, y: 145.83}
   m_SizeDelta: {x: 643.5, y: 125.5}
   m_Pivot: {x: 0.6492277, y: 1}
 --- !u!114 &2047929857

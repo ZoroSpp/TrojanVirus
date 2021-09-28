@@ -12,9 +12,9 @@ public class Spark : MonoBehaviour
     float freezeStart;
     public static int checkSt = 0;                    //running status of spark
     public static bool checkClick = false;
-    public bool CheckClkna = checkClick;
-    public int checkStna = checkSt;
     GameObject spark;
+    [SerializeField] Score sc;
+    [SerializeField] Spark Game;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,9 +25,8 @@ public class Spark : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        checkStna = checkSt;
-        CheckClkna = checkClick;
+    {    
+
         if (pos.position != targetpos)
         {
             pos.position = Vector3.MoveTowards(pos.position, targetpos, speed * Time.deltaTime);
